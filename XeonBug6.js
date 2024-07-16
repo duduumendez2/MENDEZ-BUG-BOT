@@ -64,8 +64,8 @@ const ApkXeon = JSON.parse(fs.readFileSync('./database/autoreply/apk.json'))
 
 //time
 const xtime = moment.tz('Africa/Dodoma').format('HH:mm:ss')
-        const xdate = moment.tz('Africa/Dodoma').format('DD/MM/YYYY')
-        const time2 = moment().tz('Africa/Dodoma').format('HH:mm:ss')  
+        const xdate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
+        const time2 = moment().tz('Africa/Nairobi').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night ðŸŒŒ`
  }
@@ -156,7 +156,7 @@ isForwarded: true,
 "title": ` ${global.botname}`,
 "body": `${ownername}`,
 "previewType": "PHOTO",
-"thumbnailUrl": ``,
+"thumbnailUrl": `https://telegra.ph/file/abf6c41b862aee9d0ddec.jpg`,
 "thumbnail": fs.readFileSync(`./XeonMedia/thumb.jpg`),
 "sourceUrl": `${link}`}}},
 { quoted: m})
