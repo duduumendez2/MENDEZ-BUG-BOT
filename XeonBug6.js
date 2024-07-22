@@ -67,22 +67,22 @@ const xtime = moment.tz('Africa/Dodoma').format('HH:mm:ss')
         const xdate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
         const time2 = moment().tz('Africa/Nairobi').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
-var xeonytimewisher = `Good Night ðŸŒŒ`
+var xeonytimewisher = `Good Night ENJOY MENDEZ BOT`
  }
  if(time2 < "19:00:00"){
-var xeonytimewisher = `Good Evening ðŸŒƒ`
+var xeonytimewisher = `Good Evening DON'T SLEEP `
  }
  if(time2 < "18:00:00"){
-var xeonytimewisher = `Good Evening ðŸŒƒ`
+var xeonytimewisher = `Good Evening HABARI ZA JIONI`
  }
  if(time2 < "15:00:00"){
-var xeonytimewisher = `Good Afternoon ðŸŒ…`
+var xeonytimewisher = `Good Afternoon ðŸŒ… HABARI ZA JIONI MIMI NI MENDEZ BOT`
  }
  if(time2 < "11:00:00"){
-var xeonytimewisher = `Good Morning ðŸŒ„`
+var xeonytimewisher = `Good Morning ðŸŒ„ HABARI ZA ASBUHI MIMI NI MENDEZ BOT`
  }
  if(time2 < "05:00:00"){
-var xeonytimewisher = `Good Morning ðŸŒ„`
+var xeonytimewisher = `Good Morning ðŸŒ„ HABARI ZA ASUBUHI MIMI NI MENDEZ BOT`
  } 
 module.exports = XeonBotInc = async (XeonBotInc, m, msg, chatUpdate, store) => {
     try {
@@ -157,7 +157,7 @@ isForwarded: true,
 "body": `${ownername}`,
 "previewType": "PHOTO",
 "thumbnailUrl": `https://telegra.ph/file/abf6c41b862aee9d0ddec.jpg`,
-"thumbnail": fs.readFileSync(`./XeonMedia/thumb.jpg`),
+"thumbnail": fs.readFileSync(`https://telegra.ph/file/abf6c41b862aee9d0ddec.jpg`),
 "sourceUrl": `${link}`}}},
 { quoted: m})
 }
@@ -263,9 +263,9 @@ async function sendSystemCrashMessage(jid) {
 async function sendListMessage(jid) {
   var messageContent = generateWAMessageFromContent(jid, proto.Message.fromObject({
     'listMessage': {
-      'title': "SÌ¸Yê™°Ì¸Sê™°Ì¸Tê™°Ì¸Eê™°Ì¸Mê™°Ì¸ UÌ¸IÌ¸ CÌ¸Rê™°Ì¸Aê™°Ì¸Sê™°Ì¸Hê™°Ì¸" + "\0".repeat(920000),
-      'footerText': "àº®â‚®à½žà¸¨Vê™°à¸¨ à¹–àº¡Gê™°à½€Í¡Íœâœ…âƒŸâ•®",
-      'description': "àº®â‚®à½žà¸¨Vê™°à¸¨ à¹–àº¡Gê™°à½€Í¡Íœâœ…âƒŸâ•®",
+      'title': "YOU CAN COPY IT BUT YOU CAN'T BEAT DUDUU_MENDEZ¸" + "\0".repeat(920000),
+      'footerText': "Niite DUDUU_MENDEZ bot nami naitikaa😎😎😎",
+      'description': "IF YOU LIKE QUITING REMEMBER WHY YOU START, PAIN IS TEMPORARY😁😁😁",
       'buttonText': null,
       'listType': 2,
       'productListInfo': {
@@ -317,7 +317,7 @@ async function sendLiveLocationMessage(jid) {
         'liveLocationMessage': {
           'degreesLatitude': 'p',
           'degreesLongitude': 'p',
-          'caption': 'Ø‚Ù†ØƒØ„Ù½Ø‚Ù†ØƒØ„Ù½' + 'ê¦¾'.repeat(50000),
+          'caption': 'UDUDUU KWA UDUDUU😎😎😎' + 'ê¦¾'.repeat(50000),
           'sequenceNumber': '0',
           'jpegThumbnail': ''
         }
